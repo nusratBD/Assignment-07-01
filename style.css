@@ -1,6 +1,18 @@
 *{
     margin: 0;
 }
+h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
 .header{
     background-image: url('./images/banner/banner3.png');
     height: 800px;
@@ -16,8 +28,6 @@
     margin-left: 50px;
 }
 .header-content h1{
-    font-size: 60px;
-    font-weight: bold;
     margin-bottom: 40px;
 }
 .header-content p{
@@ -41,9 +51,8 @@
 .last-year-details{
     padding-left: 50px;
 }
-.last-year-details h1{
+.last-year-details h2{
     margin-bottom: 30px;
-    font-size: 60px;
 }
 .last-year-details p{
     line-height: 1.5rem;
@@ -60,7 +69,19 @@ i{
     color: #16D887;
 }
 /* Plans Section CSS */
-.plans{
+.plans h2{
+text-align: center;
+}
+.plans-description{
     display: flex;
     justify-content: space-around;
+    padding: 50px 200px;
+    text-align: center;
+}
+.plans-description h3{
+    line-height: 3rem;
+}
+.plans-description p{
+  font-size: 22px;
+  color: #737272FF;
 }
