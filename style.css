@@ -2,7 +2,6 @@
 * {
     margin: 0;
 }
-
 h1 {
     font-size: 60px;
     font-weight: bold;
@@ -104,7 +103,7 @@ i{
 .mindset h2{
     margin-bottom: 10px;
 }
-/* Register CSS*/
+/* Register CSS: Bonus*/
 .register{
     text-align: left;
     width: 75%;
