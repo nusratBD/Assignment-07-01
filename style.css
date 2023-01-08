@@ -92,7 +92,7 @@ i{
 /* Positive Mindset CSS */
 .mindset {
     background-image:
-        linear-gradient(to right, rgba(47, 153, 240, 0.73), rgba(239, 241, 252, 0)),
+        linear-gradient(to right, rgb(28, 142, 236), rgba(239, 241, 252, 0)),
         url('images/watch.png');
     background-repeat: no-repeat;
     border-radius: 5px;
