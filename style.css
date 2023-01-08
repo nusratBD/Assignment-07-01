@@ -6,22 +6,18 @@ h1 {
     font-size: 60px;
     font-weight: bold;
 }
-
 h2 {
     font-size: 50px;
     font-weight: bold;
 }
-
 h3 {
     font-size: 30px;
     font-weight: bold;
 }
-
 .header {
     background-image: url('./images/banner/banner3.png');
-    height: 800px;
+    height: 808px;
 }
-
 .header-content {
     text-align: right;
     color: white;
@@ -32,16 +28,13 @@ h3 {
     padding-right: 100px;
     margin-left: 50px;
 }
-
 .header-content h1 {
     margin-bottom: 40px;
 }
-
 .header-content p {
     margin-bottom: 20px;
     line-height: 2rem;
 }
-
 button {
     color: #005FAC;
     padding: 15px 20px;
@@ -57,54 +50,43 @@ button {
     justify-content: space-between;
     padding: 100px 150px;
 }
-
 .last-year-details {
     padding-left: 50px;
 }
-
 .last-year-details h2 {
     margin-bottom: 30px;
 }
-
 .last-year-details p {
     line-height: 1.5rem;
     margin-bottom: 20px;
 }
-
 .ul {
     list-style-type: none;
     padding-left: 0;
 }
-
 .ul li {
     line-height: 2rem;
 }
-
-i {
+i{
     color: #16D887;
 }
-
 /* Plans Section CSS */
 .plans h2 {
     text-align: center;
 }
-
 .plans-description {
     display: flex;
     justify-content: space-around;
     padding: 50px 200px;
     text-align: center;
 }
-
 .plans-description h3 {
     line-height: 3rem;
 }
-
 .plans-description p {
     font-size: 22px;
     color: #737272FF;
 }
-
 /* Positive Mindset CSS */
 .mindset {
     background-image:
@@ -113,12 +95,45 @@ i {
     background-repeat: no-repeat;
     border-radius: 5px;
     width: 75%;
-    margin-left: 12.5%;
+    margin-left: 9%;
     color: white;
     padding: 50px;
 }
 .mindset h2{
     margin-bottom: 10px;
+}
+/* Register */
+.register{
+    text-align: left;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 100px;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+.register h3{
+    text-align: center;
+    padding-top: 50px;
+}
+.register form{
+    padding: 50px 100px;
+    border-radius: 5px;
+}
+.register .text-input{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color: rgb(219, 240, 248);
+    border: none;
+    padding: 0px 20px;
+}
+.register label fieldset{
+    font-weight: bold;
+}
+.register button{
+    background-color: #005FAC;
+    color: white;
 }
 /* Footer CSS */
 .footer{
@@ -164,7 +179,6 @@ padding-right: 30%;
     padding-left: 15px;
     color: white;
     font-weight: bold;
-   
 }
 .subscribe button{
     background-color: #005FAC;
