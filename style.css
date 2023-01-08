@@ -15,6 +15,14 @@ h3 {
     font-size: 30px;
     font-weight: bold;
 }
+button {
+    color: #005FAC;
+    padding: 15px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
 /* Header CSS */
 .header {
     background-image: url('./images/banner/banner3.png');
@@ -36,14 +44,6 @@ h3 {
 .header-content p {
     margin-bottom: 20px;
     line-height: 2rem;
-}
-button {
-    color: #005FAC;
-    padding: 15px 20px;
-    font-weight: bold;
-    border-radius: 5px;
-    border: none;
-    font-size: 16px;
 }
 /* Last Year CSS */
 .last-year {
